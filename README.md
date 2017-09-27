@@ -1,9 +1,10 @@
+
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
+    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--,
     '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+    -----------------------------------------------------------------
 
 
 Hi there! Welcome to Cloud9 IDE!
@@ -25,3 +26,8 @@ The Cloud9 IDE team
 Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
 To watch some training videos, visit http://www.youtube.com/user/c9ide
 # Voyage2-Turtles-27
+=======
+## 1. go to chrome://extensions
+## 2. make sure to enable dev mode
+## 3. load unpacked extension.
+## 4. Use it!
