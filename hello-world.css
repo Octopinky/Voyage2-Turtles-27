@@ -33,3 +33,74 @@
 body{
 	background-image: url("https://images.unsplash.com/photo-1495100793874-7f94aecae1fb?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=");
 }
+
+/** TODO APP  **/
+
+#todo {
+	position: fixed;
+	bottom: 0;
+	right: 1%;
+}
+
+#todo_container {
+	background: rgba(15,15,15,.925);
+	color: #fff;
+width: 100%;
+box-shadow:  0 0 3px rgba(0,0,0,.1);
+margin: 40px auto;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/*border: 2px solid rgba(167, 162, 162, 0.48);*/
+}
+
+.todo_title__nomargin {
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.todo_completed {
+	color: rgb(128, 128, 128);
+	text-decoration: line-through;
+}
+
+.todo_input {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 18px;
+	color: #2980b9;
+	width: 100%;
+	box-sizing: border-box;
+	/*padding: 2px 2px 2px 5px;*/
+	outline: none;
+	border: none;
+	border: 1px solid rgb(28, 27, 28);
+}
+
+.todo_input:focus{
+	/*background: white;*/
+	outline: none;
+
+	border: 1px solid rgba(255, 255, 255, 0);
+
+}
+
+.todo_list__nostyle {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.todo_item{
+	height: 40px;
+	line-height: 40px;
+}
+.todo_item:nth-child(2n) {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+
+/** TODO APP End  **/
