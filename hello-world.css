@@ -1,3 +1,11 @@
+#weather{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:auto;
+	background:rgba(15,15,15,.925);
+}
+
 #mainContent {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: xx-large;
@@ -60,9 +68,13 @@ box-shadow:  0 0 3px rgba(0,0,0,.1);
 margin: 40px auto;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+<<<<<<< HEAD
+/*border: 2px solid rgba(167, 162, 162, 0.48);*/
+=======
 
 /*border: 2px solid rgba(167, 162, 162, 0.48);*/
 display: none;
+>>>>>>> 25367eaf364a60ba9303d4d9f5c1eea72e6a15d3
 }
 
 .todo_title__nomargin {
@@ -114,11 +126,14 @@ display: none;
 	background: rgba(255, 255, 255, 0.05);
 }
 
+<<<<<<< HEAD
+=======
 #fetchTodos {
 	color: white;
     font-size: 27px;
     font-family: helvetica;
 }
 
+>>>>>>> 25367eaf364a60ba9303d4d9f5c1eea72e6a15d3
 
 /** TODO APP End  **/
