@@ -66,10 +66,6 @@ width: 100%;
 box-shadow:  0 0 3px rgba(0,0,0,.1);
 margin: 40px auto;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-
-/*border: 2px solid rgba(167, 162, 162, 0.48);*/
-display: none;
 }
 
 .todo_title__nomargin {
@@ -124,12 +120,6 @@ display: none;
 	background: rgba(255, 255, 255, 0.05);
 }
 
-#fetchTodos {
-	color: white;
-    font-size: 27px;
-    font-family: helvetica;
-}
-
 .todo_X {
 	margin-right: 20px;
 background: rgba(255, 0, 0, 0.8);
@@ -142,7 +132,6 @@ opacity: 0;
 
 transition: .2s linear;
 }
-
 
 /** TODO APP End  **/
 

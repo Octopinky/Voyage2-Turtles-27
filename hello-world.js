@@ -24,10 +24,7 @@ $.getJSON("https://freegeoip.net/json/", function(json) {
     var currentUser = firebase.auth().currentUser;
 
     // LOAD UP todos
-
-
-
-  //cross out todo
+//cross out todo
     $('.todo_list').on("click", "li", function changeCSS(){
         $(this).toggleClass('todo_completed');
         // console.log('yo!!: ' +  $(this).attr("uid"))
@@ -35,9 +32,9 @@ $.getJSON("https://freegeoip.net/json/", function(json) {
 
     });
 
-    // delete todo
+// delete todo
     $('.todo_list').on("click",'.todo_X', function(e){
-      // prevent "bubble up"
+// prevent "bubble up"
       e.preventDefault();
       e.stopPropagation();
 
