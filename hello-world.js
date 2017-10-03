@@ -57,13 +57,32 @@ $.getJSON("https://freegeoip.net/json/", function(json) {
     };
   });
 
+  var loaded = false;
+
   $('#fetchTodos').click(function(){
+
     console.log('from #fetchtodos')
-    fetchTodos();
+    if(loaded == false){
+      fetchTodos();
+    }
+    loaded = true;
     $('#todo_container').toggle({'display': 'none'});
-    $(this).toggle({'display': 'none'});
+    // $(this).toggle({'display': 'none'});
 
   });
+
+//toggle todo input
+
+$('.icon-plus').click(function(){
+
+  $('.todo_input').fadeToggle();
+
+
+});
+
+
+
+
 });
 
 
@@ -149,7 +168,7 @@ function fetchTodos() {
 
 
     _.map(the_objects, function(val, uid){
-      return  $('.todo_list').prepend('<li class="todo_item" uid='+ snapshot.key+' "><span class="todo_X">X</span> ' + the_objects.todo.todo +  ' </li>');
+      return  $('.todo_list').prepend('<li class="todo_item" uid='+ snapshot.key+' "><span class="todo_X"><i class="icon-trash"></i></span> ' + the_objects.todo.todo +  ' </li>');
 
       console.log('fetching todos from the function')
     })
