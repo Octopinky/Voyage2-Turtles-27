@@ -2,7 +2,7 @@ $(document).ready(function() {
   /***
    *Random quotes
    **/
-  $.getJSON("https://crossorigin.me/https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+  $.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
    $("#quotes").html(" <div>"+a[0].content + "<p>— " + a[0].title + "</p>"+"</div>");
 });
   /***
